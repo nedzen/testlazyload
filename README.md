@@ -61,7 +61,7 @@ lazyLoad(options);
 Its well advisable to give the images/picture/iframes an intrinsic size to stop huge repaints: Either by giving a pixel size and using a transparent gif:
 
 ```HTML
-<img width="500" height="281" data-src="/images/greenflash_800.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">;
+<img width="500" height="281" data-src="images/greenflash_800.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">;
 ```
 
 Or using the padding trick:
